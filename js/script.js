@@ -8,3 +8,8 @@ function clearBox(){
 function evaluateExp(){
     result.value=eval(result.value)
 }
+
+function backSpace(){
+    let currValue=result.value;
+    result.value=currValue.slice(0,-1)
+}
